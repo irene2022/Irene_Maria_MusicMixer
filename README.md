@@ -1,2 +1,7 @@
-# Irene_Maria_MusicMixer
-Multimedia Authoring Project 2
+# Project 2 - Music Mixer
+
+## Project Status
+still in development...
+
+## Developers
+Maria Lopera and Irene Vinu
