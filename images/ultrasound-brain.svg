@@ -1,0 +1,23 @@
+<svg id="brain" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.41 327.66">
+	<defs>
+		<style>.cls-1{fill:#fff;stroke:#000;stroke-miterlimit:10;stroke-width:5px;}
+
+		#brain:hover { fill: #3377a0 !important; }
+		#brain { cursor: pointer; }
+
+		</style>
+	</defs>
+	<g id="face"><path class="cls-1" d="M28.22,105.16s5,28-21,59c-18.18,21.68,22,17,22,17l-4,18s-1,4,13,0c19.26-5.5-9,18-9,18,4-3,6,14,6,20,0,16.55-5,28.78,5,31,36,8,45,10,70,5,32,18.3,25,52,25,52h115s-32-67-12-80c65.46-42.54,78-256-95-242C115,5.44,12.22,32.16,28.22,105.16Z"/></g><g id="central-nervous-system"><path id="brain" d="M255.72,114.66c-6,1-7,2-27,7-24,6-49.14,38.66-45,42,0,0-47-5-65-10s-18-26-20-26-27-8-32-11-18-1-14-39,75-50,75-50C254.72,2.66,261.72,113.66,255.72,114.66Zm-27,12c-18,9-55,28-31,43s11,3,44,0,14-50,14-50S246.72,117.66,228.72,126.66Zm-61,41a76.76,76.76,0,0,0,2,9.38c1.91,6.75,5.32,15.23,11,18.62,10,6,17,35,17,35h15l-5-32a33.33,33.33,0,0,0,5-16l-23-15h-22"/></g>
+<defs>
+	<script>
+		let icon = document.querySelector("#brain");
+
+		function logMyId() {
+		console.log(this.id);
+		}
+
+		icon.addEventListener("click", logMyId);
+
+	</script>
+</defs>
+</svg>

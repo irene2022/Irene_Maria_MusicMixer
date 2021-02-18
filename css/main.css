@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+.hidden {
+	display: none;
+}
+
+body
+{
+	font-family: 'montserrat', open-sans, sans-serif;
+	font-size: 24px;
+}
+
+#container
+{
+	width: 1080px;
+}
+
+#headLine
+{
+	background-color: #d2d8d2;
+	height: 250px;
+	color: white;
+	text-align: center;
+
+}
+
+.game-boards
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 1080px;
+	margin-top: 50px;
+}
+
+.bodyIcons
+{
+	background-color: #707070;
+	width: 400px;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.bodyIcons img
+{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.puzzle-board
+{
+	background-color: #a8c735;
+}
+
+.puzzle-body
+{
+	background-color: #d2d8d2;
+}
