@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+.hidden {
+	display: none;
+}
+
+body
+{
+	font-family: 'montserrat', open-sans, sans-serif;
+	font-size: 24px;
+}
+
+#container
+{
+	width: 1080px;
+}
+
+#headLine
+{
+	background-color: #d2d8d2;
+	height: 250px;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+#gameBoard
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 1080px;
+	margin-top: 50px;
+}
+
+.bodyiconsZone
+{
+	background-color: #719400;
+	width: 450px;
+	columns: 2 200px;
+	padding-top: 50px;
+	padding-left: 20px;
+
+}
+
+.bodyiconsZone img
+{
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+.bodyIcon
+{
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+	color: #d2d8d2;
+}
+
+
+
+.puzzleBody
+{
+	background-color: #3377a0;
+}
+
+#footer 
+{
+	background-color: #d2d8d2;
+	height: 150px;
+	padding-left: 1px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 50px;
+}
+
+#footer h2
+{
+	font-size: 1em;
+	padding-top: 50px;
+	padding-left: 60px;
+	color: #999;
+}
+
+#footer p
+{
+	font-size: 0.5em;
+	margin-left: auto;
+	padding-top: 70px;
+	padding-right: 60px;
+	color: #999;
+}
