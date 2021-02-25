@@ -1,23 +1,11 @@
-<svg id="heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 481.73 464.56">
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 481.73 464.56">
 	<defs>
 		<style>.cls-1{stroke:#000;}
-		#heart:hover { fill: #3377a0 !important; }
-		#heart { cursor: pointer; }
+		
 
 		</style>
 	</defs>
 	<g id="ventricle"><path id="left-ventricle" d="M77.5,192.54c-2,4-12,5-6.16,48.19,6.08,44.9,8.78,92.31,45.16,126.81,97,92,279.31,104.27,319,94,86.15-22.32,41.13-234.83-47-313C292.65,63.52,250,120,278,176c17.8,35.6-87.28,101.42-108,62C139,179,94.39,170.81,77.5,192.54Z"/></g><g id="aorta"><path id="aortic-valve" class="cls-1" d="M250.5,58.54s-50.73,7-50,22c2,41,57,73.92,57,99,0,17-60,65-73,46,0,0-50.95-89.45-57-129-13-85,104-96,104-96Z"/></g><g id="pulmonary"><path id="pulmonary-arteries" d="M142,161c-31.38-11.77-105,24-107,31,0,0-17-13-35-52,35.11-23.1,112.88-19,124-19C124.69,121,149.44,163.82,142,161Zm69-66,18.6,30.65S283,89,285,93c-15-23-19-34-19-34S224.9,72.88,211,95Z"/>
 </g>
-<defs>
-	<script>
-		let icon = document.querySelector("#heart");
 
-		function logMyId() {
-		console.log(this.id);
-		}
-
-		icon.addEventListener("click", logMyId);
-
-	</script>
-</defs>
 </svg>

@@ -1,18 +1,6 @@
-<svg id="lungs" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 569.74 443.02"><style>
-	#lungs:hover { fill: #3377a0 !important; }
-	#lungs { cursor: pointer; }
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 569.74 443.02"><style>
+	
 </style>
 <path id="lungs-bronchi" d="M138.83,127s76-63,81-2,27.69,297.83-27,304c-62,7-205,40-192-29S71.83,188,138.83,127Zm292.08,0s-76-63-81-2-27.69,297.83,27,304c62,7,205,40,192-29S497.91,188,430.91,127Zm-163.08,6-34,53v42l51-62,11,12,41,50,2-42-32-51-2-135h-36Z"/>
-<defs>
-	<script>
-		let icon = document.querySelector("#lungs");
 
-		function logMyId() {
-		console.log(this.id);
-		}
-
-		icon.addEventListener("click", logMyId);
-
-	</script>
-</defs>
 </svg>

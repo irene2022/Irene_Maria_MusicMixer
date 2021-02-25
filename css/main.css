@@ -21,10 +21,11 @@ body
 	height: 250px;
 	color: white;
 	text-align: center;
+	padding-top: 20px;
 
 }
 
-.game-boards
+#gameBoard
 {
 	display: flex;
 	flex-direction: row;
@@ -33,26 +34,60 @@ body
 	margin-top: 50px;
 }
 
-.bodyIcons
+.bodyiconsZone
 {
-	background-color: #707070;
-	width: 400px;
+	background-color: #719400;
+	width: 450px;
+	columns: 2 200px;
 	padding-top: 50px;
-	padding-left: 50px;
+	padding-left: 20px;
+
 }
 
-.bodyIcons img
+.bodyiconsZone img
 {
-	margin-top: 40px;
-	margin-left: 40px;
+	margin-top: 50px;
+	margin-left: 30px;
 }
 
-.puzzle-board
+.bodyIcon
 {
-	background-color: #a8c735;
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+	color: #d2d8d2;
 }
 
-.puzzle-body
+
+
+.puzzleBody
+{
+	background-color: #3377a0;
+}
+
+#footer 
 {
 	background-color: #d2d8d2;
+	height: 150px;
+	padding-left: 1px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 50px;
+}
+
+#footer h2
+{
+	font-size: 1em;
+	padding-top: 50px;
+	padding-left: 60px;
+	color: #999;
+}
+
+#footer p
+{
+	font-size: 0.5em;
+	margin-left: auto;
+	padding-top: 70px;
+	padding-right: 60px;
+	color: #999;
 }
