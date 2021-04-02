@@ -12,12 +12,19 @@ body
 
 #container
 {
-	width: 1080px;
+	max-width: 1080px;
+	background-image: url(../images/waves.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin: 0 auto;
 }
+
 
 #headLine
 {
-	background-color: #d2d8d2;
+	background-color: #d2d8d275;
 	height: 250px;
 	color: white;
 	text-align: center;
@@ -30,13 +37,13 @@ body
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	width: 1080px;
+	height: 800px;
 	margin-top: 50px;
 }
 
 .bodyiconsZone
 {
-	background-color: #719400;
+	background-color: #71940050;
 	width: 450px;
 	columns: 2 200px;
 	padding-top: 50px;
@@ -48,6 +55,9 @@ body
 {
 	margin-top: 50px;
 	margin-left: 30px;
+	background-color: #d2d8d2;
+	border: 2px solid #070707;
+	border-radius: 20px;
 }
 
 .bodyIcon
@@ -61,12 +71,26 @@ body
 
 .puzzleBody
 {
-	background-color: #3377a0;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	background-color: #3377a075;
+	height: 800px;
+	/*width: 450px;*/
+	
+}
+
+.puzzleBody img
+{
+    margin-top: 20px;
+
 }
 
 #footer 
 {
-	background-color: #d2d8d2;
+	background-color: #d2d8d275;
 	height: 150px;
 	padding-left: 1px;
 	display: flex;
