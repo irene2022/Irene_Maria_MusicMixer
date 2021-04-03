@@ -26,7 +26,7 @@ body
 {
 	background-color: #d2d8d275;
 	height: 250px;
-	color: white;
+	color: #800080;
 	text-align: center;
 	padding-top: 20px;
 
@@ -37,13 +37,13 @@ body
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	height: 800px;
+	/*height: 800px;*/
 	margin-top: 50px;
 }
 
 .bodyiconsZone
 {
-	background-color: #71940050;
+	background-color: #3377a075;
 	width: 450px;
 	columns: 2 200px;
 	padding-top: 50px;
@@ -55,8 +55,8 @@ body
 {
 	margin-top: 50px;
 	margin-left: 30px;
-	background-color: #d2d8d2;
-	border: 2px solid #070707;
+	background-color: #fff;
+	border: 1px solid #070707;
 	border-radius: 20px;
 }
 
@@ -76,15 +76,15 @@ body
 	flex-direction: column;
 	align-items: center;
 	
-	background-color: #3377a075;
-	height: 800px;
+	background-color: #3377a080;
+	/*height: 800px;*/
 	/*width: 450px;*/
 	
 }
 
 .puzzleBody img
 {
-    margin-top: 20px;
+    margin-top: 60px;
 
 }
 
@@ -104,7 +104,7 @@ body
 	font-size: 1em;
 	padding-top: 50px;
 	padding-left: 60px;
-	color: #999;
+	color: #fff;	
 }
 
 #footer p
@@ -113,5 +113,5 @@ body
 	margin-left: auto;
 	padding-top: 70px;
 	padding-right: 60px;
-	color: #999;
+	color: #fff;
 }
