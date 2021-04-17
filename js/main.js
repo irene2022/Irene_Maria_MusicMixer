@@ -72,3 +72,4 @@ bodyIcon.forEach(piece => piece.addEventListener("click", loadAudio));
 dropZones.forEach(zone => zone.addEventListener("drop", loadAudio));
 
 })();
+
