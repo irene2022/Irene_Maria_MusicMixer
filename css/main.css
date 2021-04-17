@@ -50,6 +50,14 @@ body
 	margin-top: 40px;
 }
 
+.intro
+{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 30px;
+}
 
 #gameBoard
 {
@@ -58,6 +66,7 @@ body
 	justify-content: space-evenly;
 	/*height: 800px;*/
 	margin-top: 50px;
+	margin-left: 40px;
 }
 
 .bodyiconsZone
@@ -71,14 +80,16 @@ body
 
 .bodyiconsZone h2
 {
-	font-size: 14px;
+	font-size: 20px;
 	margin: 0 auto;
+	color: white;
+
 }
 .bodyiconsZone div
 {
 	margin-top: 50px;
 	margin-left: 30px;
-	
+
 	border-radius: 20px;
 }
 
@@ -93,25 +104,40 @@ body
 
 .puzzleBody
 {
-	
+
+	position: relative;
+	background: url(../images/female_body_design_2.svg) center no-repeat;
+	padding-bottom: 20px;
+	width: 450px;
+	height: 800px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+}
+
+
+
+.drop-zone {
 	
-	background-color: #3377a075;
-	padding-bottom: 20px;
-	/*height: 800px;*/
-	/*width: 450px;*/
+	border: thin dashed black;
+	margin-left: 120px;
+	width:200px;
+	height:400px;
+	/*float: left;*/
 	
 }
 
-.puzzleBody img
-{
-    margin-top: 20px;
+.drop-zone img {
 
-}
+	width: 40% !important;
+	bottom: 0;
+	padding-left: 40px;
+	margin:0;
+ }
 
-#footer 
+/*.humming img, .heart img { right: 0; }
+.lungs img, .neuron img { top: 0; }
+*/
+#footer
 {
 	background-color: #d2d8d275;
 	height: 150px;
@@ -127,7 +153,7 @@ body
 	font-size: 1em;
 	padding-top: 50px;
 	padding-left: 60px;
-	color: #999;
+	color: #800080;
 }
 
 #footer p
@@ -136,5 +162,5 @@ body
 	margin-left: auto;
 	padding-top: 70px;
 	padding-right: 60px;
-	color: #999;
+	color: #800080;
 }
